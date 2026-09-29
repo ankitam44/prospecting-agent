@@ -2,8 +2,6 @@
 
 A console-based AI agent that researches a company, scores it as a sales prospect, persists the result to Airtable, and drafts a personalized outreach email — built with [Claude Code](https://claude.com/claude-code) and the [Vercel AI SDK](https://sdk.vercel.ai/).
 
-Built while completing the LinkedIn Learning course *[Building an AI Agent with Claude Code](https://www.linkedin.com/learning/vibe-coding-your-first-ai-agent-with-claude-code)* (instructor: Basia Kubicka), then carried over here as a standalone project.
-
 ## What it does
 
 The agent is built on four components — **Brain, Tools, Memory, Loop**:
