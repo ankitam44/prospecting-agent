@@ -1,0 +1,24 @@
+{
+  "name": "ai-sales-prospecting-agent",
+  "version": "1.0.0",
+  "description": "A console-based AI agent that researches companies, scores prospects, and drafts outreach",
+  "main": "src/agent/research.ts",
+  "scripts": {
+    "test": "tsc --noEmit && node --env-file-if-exists=.env ./node_modules/vitest/vitest.mjs"
+  },
+  "keywords": [],
+  "author": "Ankita Menon",
+  "license": "MIT",
+  "dependencies": {
+    "ai": "^5",
+    "@ai-sdk/anthropic": "^2",
+    "@ai-sdk/mcp": "~0.0.18",
+    "zod": "^3"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "typescript": "^5",
+    "tsx": "^4",
+    "vitest": "^3"
+  }
+}
